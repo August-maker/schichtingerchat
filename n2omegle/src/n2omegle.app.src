@@ -1,0 +1,9 @@
+{application, n2omegle,
+ [
+  {description, "minimal omegle clone in n2o"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [ kernel, stdlib, n2o ]},
+  {mod, { n2omegle_app, []}},
+  {env, [ ]}
+ ]}.
